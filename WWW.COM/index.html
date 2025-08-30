@@ -1,0 +1,136 @@
+﻿<!DOCTYPE html>
+<!-- Indica que este es un documento HTML5 -->
+<html lang="es">
+<!-- Define el idioma como español -->
+
+<head>
+    <meta charset="utf-8"/>
+    <!-- Define el conjunto de caracteres como UTF-8 para soportar acentos y caracteres especiales -->
+
+    <title>MI I WEB</title>
+    <!-- Título que aparece en la pestaña del navegador -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Hace que la página sea responsiva en dispositivos móviles -->
+
+    <meta name="DESCRIPCION" content="ESTA ES MI PRIMER PAGINA WEB"/>
+    <!-- Meta descripción para motores de búsqueda -->
+
+    <meta name="AUTOR" content="ARMANDO"/>
+    <!-- Nombre del autor de la página -->
+
+    <meta name="keywords" content="mi primer pagina web"/>
+    <!-- Palabras clave para los buscadores -->
+
+    <!-- ENLACE CORRECTO AL CSS -->
+    <link rel="stylesheet" href="CSS/estilos.css">
+    <!-- Importa el archivo de estilos CSS -->
+
+    <!-- ENLACE CORRECTO AL JS -->
+    <script src="JS/codigo.js"></script>
+    <!-- Importa el archivo de JavaScript -->
+</head>
+
+<body>
+    <!-- Inicio del contenido visible en la página -->
+
+    <div class="agrupar">
+        <!-- Contenedor principal con clase "agrupar" -->
+
+        <header class="cabezera">
+            <!-- Encabezado principal -->
+            <h1>TIENDAS EXPRESS</h1>
+            <!-- Título dentro del encabezado -->
+        </header>
+
+        <nav class="menu">
+    <ul>
+        <li><a href="index.html">PRINCIPAL</a></li>
+        <li><a href="portafolio.html">PORTAFOLIO</a></li>
+        <li><a href="ayuda.html">AYUDA</a></li>
+        <li><a href="contacto.html">CONTACTO</a></li>
+    </ul>
+    </nav>
+
+        <section class="seccion">
+            <!-- Sección principal del contenido -->
+
+            <article>
+                <!-- Primer artículo -->
+                <hgroup>
+                    <!-- Agrupación de encabezados -->
+                    <h1> PRIMER ARTICULO</h1>
+                    <h2>Subtitulo del primr articulo</h2>
+                    <!-- OJO: “primr” debería ser “primer” -->
+                </hgroup>
+
+                <time datetime="12-06-2021">PUBLICADO 28 04 2021</time>
+                <!-- Fecha de publicación -->
+
+                <img src="IMAGEN/Paisaje.jpg"/>
+                <!-- Imagen dentro del artículo -->
+
+                <p>
+                    <!-- Párrafo de texto -->
+                    Un sistema es un conjunto de elementos relacionados entre sí que funciona como un todo. ... La palabra sistema procede del latín systēma, y este del griego σύστημα (systema), identificado en español como “unión de cosas de manera organizada”. De esta palabra se derivan otras como antisistema o ecosistema.
+                </p>
+
+                <footer>
+                    <!-- Pie del artículo -->
+                    <p>Comentario (0)</p>
+                </footer>
+            </article>
+
+            <article>
+                <!-- Segundo artículo -->
+                <hgroup>
+                    <h1>SEGUNDO ARTICULO</h1>
+                    <h2>Subtitulo del primr articulo</h2>
+                    <!-- OJO: “primr” debería ser “primer” -->
+                </hgroup>
+
+                <time datetime="12-06-2021">PUBLICADO 28 04 2021</time>
+                <!-- Fecha de publicación -->
+
+                <p>
+                    <!-- Otro párrafo, ahora con etiquetas semánticas dentro -->
+                    Un sistema es un conjunto de
+                    <small> elementos relacionados</small> entre sí que funciona como un todo. ...
+                    <cite> palabra sistema</cite> procede del latín systēma, y este del griego σύστημα (systema),
+                    <span> español</span> como “unión de cosas de manera organizada”. De esta palabra se derivan otras como antisistema o ecosistema.
+                </p>
+
+                <footer>
+                    <!-- Pie del segundo artículo -->
+                    <p>Comentario (10)</p>
+                </footer>
+
+                <address>
+                    <!-- Dirección o contacto -->
+                    <a href="https://Google.com">Visita Google</a>
+                    <!-- Enlace a Google -->
+                </address>
+            </article>
+        </section>
+
+        <aside class="aparte">
+            <!-- Contenido secundario (barra lateral, citas, etc.) -->
+
+            <blockquote cite="http.facebook.com">
+                Mensaje 1
+                <!-- Cita de algún sitio (aunque el enlace está mal escrito) -->
+            </blockquote>
+
+            <blockquote cite="http.twteer.com">
+                Mensaje 2
+                <!-- Cita de otro sitio (también mal escrito) -->
+            </blockquote>
+        </aside>
+
+        <footer class="pie">
+            <!-- Pie de página general -->
+            Derechos reservados 2020 - 2021
+        </footer>
+    </div>
+</body>
+</html>

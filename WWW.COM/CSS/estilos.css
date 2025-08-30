@@ -1,0 +1,108 @@
+﻿/* Estilo para los encabezados h1 */
+h1 {
+    font-size: 40px;             /* Tamaño grande para destacar el título */
+    font-family: sans-serif;     /* Fuente sin serifas, más moderna y legible */
+    font-weight: bold;           /* Texto en negrita */
+    }
+
+/* Estilo para los encabezados h2 */
+h2 {
+    font-size: 20px;             /* Tamaño grande para destacar el título */
+    font-family: sans-serif;     /* Fuente sin serifas, más moderna y legible */
+    font-weight: bold;           /* Texto en negrita */
+   }
+   
+
+/* Hace que los elementos HTML5 se comporten como bloques en navegadores antiguos */
+header, section, footer, aside, nav, article, hgroup {
+
+display: block;
+
+}
+
+/* Estilo general del cuerpo de la página */
+body {
+    text-align: center;          /* Centra horizontalmente todo el texto dentro del body */
+     }
+
+/* Contenedor principal de la página */
+.agrupar {
+    width: 1100px;            /* Ancho fijo del contenido */
+    margin: 15px auto;        /* Centra horizontalmente con espacio arriba y abajo */
+    background: #BFC9CA ;      /* Fondo verde brillante */
+    border: solid black;       /* Borde negro sólido */
+          }
+
+/* Encabezado principal */
+.cabezera {
+    background: yellow;          /* Fondo amarillo */
+    border: 1px solid blue;      /* Borde azul de 1px */
+    padding: 20px;               /* Espacio interno alrededor del contenido */
+           }
+
+/* Título dentro del encabezado */
+.cabezera h1 {
+    text-align: center;            /* Alineación a la izquierda del texto */
+             }
+
+/* Menú de navegación */
+.menu {
+    background: #2ECC71;         /* Verde suave */
+    padding: 5px 15px;           /* Espacio interno vertical y horizontal */
+      }
+
+/* Elementos de la lista del menú */
+.menu li {
+    list-style: none;            /* Quita las viñetas de la lista */
+    padding: 5px;                /* Espacio interno */
+    font: bold 14px verdana;     /* Fuente Verdana, tamaño 14px, negrita */
+    display: inline;             /* Muestra los elementos uno al lado del otro */
+    text-align: center;            /* Texto alineado a la izquierda */
+}
+
+/* Sección principal donde van los artículos */
+.seccion {
+    margin: 20px;                /* Espacio exterior */
+    border: 1px;                 /* ⚠️ Incompleto: falta tipo y color de borde (debería ser p. ej. 1px solid black) */
+    background: burlywood;       /* Fondo marrón claro */
+    width: 600px;                /* Ancho fijo */
+         }
+
+/* Artículos individuales */
+article {
+    background: #73C6B6;      /* Fondo púrpura fuerte */
+    border: 2px red;             /* ⚠️ Incorrecto: falta "solid" (debería ser 2px solid red) */
+    margin-bottom: 15px;         /* Espacio debajo del artículo */
+        }
+
+/* Etiqueta de tiempo */
+time {
+    background: grey;            /* Fondo gris para resaltar la fecha */
+     }
+
+/* Pie de cada artículo */
+article footer {
+    text-align: center;          /* Centra el texto */
+    margin-top: 20px;            /* Separación superior del contenido */
+}
+
+/* ⚠️ Error: clase escrita como .apate en lugar de .aparte */
+.aparte 
+.aparte blockquote {
+                    border: border 1px solid black;  /* ❌ Incorrecto: repetido 'border'. Debería ser: border: 1px solid black; */
+                   }
+
+/* Pie de página general */
+.pie {
+    clear: both;                 /* Limpia flotantes si los hay (útil si usas float) */
+    padding: 20px;               /* Espaciado interno */
+    background: aquamarine;      /* Fondo azul verdoso */
+    color: red;                  /* Texto en color rojo */
+      }
+
+/* Estilo para imágenes */
+img {
+    width: 150px;                /* Ancho fijo de 150 píxeles */
+    display: block;              /* Hace que la imagen se comporte como bloque (para poder centrarla) */
+    margin: 20px auto;           /* Centra horizontalmente y da espacio vertical */
+    }
